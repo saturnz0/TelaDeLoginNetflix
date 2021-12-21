@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Roboto:wght@100&family=Rubik:wght@300&family=Source+Sans+Pro:wght@600&display=swap');
+
+/* cores usadas (
+    aliceblue
+    #E50914
+    #c0c0c0
+    #DCDCDC
+    #800000
+    #696969
+) */
+
+html{
+    display: block;
+    margin: 0;
+    overflow: auto;
+
+}
+
+h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)),
+    url("../css/images/fundo_netflix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    text-size-adjust: 100%;
+}
+
+
+
+.logo{
+    color: #E50914;
+    font-size: 50px;
+    margin: 5px 5%;
+    text-shadow: 6px 6px 6px black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+;
+}
+
+.logoFacebook{
+    height: 15px;
+    width: 15px;
+    margin: auto 10px auto 2px;
+}
+
+.container{
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    margin: auto auto 5% auto;
+    color: white;
+    padding: 4%;
+    border-radius: 15px;
+    opacity: 70%;
+    position: relative;
+    box-shadow: 6px 6px 6px black;
+    animation-name: fade 0.5s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+    }to{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+}
+
+.below, .informacoesAdd{
+    color: #c0c0c0;
+    margin-top: 50px;
+}
+input::placeholder{
+    color: #DCDCDC;
+}
+
+#email{
+    width: 300px;
+    height: 45px;
+    background-color: #696969;
+    color:  #DCDCDC;
+    border-radius: 5px;
+    padding-top: 1px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 15px ;
+    caret-color: #E50914;
+}
+
+#senha{
+
+    width: 300px;
+    height: 45px;
+    background-color: #696969;
+    border-radius: 5px;
+    padding: 15px auto;
+    color:  #DCDCDC;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    caret-color: #E50914;
+}
+
+.btnEntrar{
+    width: 300px;
+    height: 45px;
+    background-color: #E50914;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: #E50914;
+    cursor: pointer;
+    
+}
+.btnEntrar:hover{
+    background-color: #800000;
+    transition: 0.5 ease;
+}
+
+.below{
+    display: inline;
+}
+
+.ajuda{
+    float: right;
+    margin: 0;
+    margin-top: 3px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+.lembre{
+    float: left;
+}
+
+#lembre{
+    cursor: pointer;
+    background-color: #c0c0c0;
+    height: 15px;
+    width: 15px;
+    
+}
+
+.facebook{
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.moreInformation{
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.assine{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+footer{
+    background-color: black;
+    color: #696969 ;
+    width: 100%;
+    size: auto;
+    opacity: 85%;
+    box-sizing: border-box; 
+}
+.duvidas{
+    font-size: 20px;
+}
+
+.language{
+    height: 40px;
+    width: 130px;
+    box-sizing: border-box;
+    background-color: black;
+    color: #696969;
+    border: 1px solid #696969;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+.language:hover{
+    background-color: #DCDCDC;
+    color: black;
+    transition: 0.5 ease;
+}
+
+.box{
+    width: 170px;
+    height: 25px;
+}
+
+.rodape{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.rodape2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ligue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btnLanguage{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
