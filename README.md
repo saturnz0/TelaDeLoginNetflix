@@ -1,7 +1,7 @@
 
 <h1 
     style="color: #E50914; 
-    text-align: center;">  
+    text-align: center; text-shadow: 1px 1px 1.5px black;">  
         Clone página de login NETFLIX
 </h1>
 
@@ -17,6 +17,9 @@
     </a>
 </p>
 <br>
+
+<p style="text-align: center;"><b>Técnologias utilizadas:</b></p>
+<p style="text-align: center; "><img src="/css/images/html.png" style="height: 60px"><img src="/css/images/css.png" style="height: 60px"></p>
 <br>
 <p style="text-align: center;">
     Pode conferir a página funcionando no meu 
@@ -28,7 +31,7 @@
     </a>
 </p>
 <p>
-    <img src="css/images/captura_de_tela.png">
+    <img src="css/images/captura_de_tela.png" style="box-shadow: 1px 1px 6px black;">
 </p>
 <br>
 <br>
