@@ -19,7 +19,7 @@
 <br>
 
 <p style="text-align: center;"><b>Técnologias utilizadas:</b></p>
-<p style="text-align: center; "><img src="/css/images/html.png" style="height: 60px"><img src="/css/images/css.png" style="height: 60px"></p>
+<p style="text-align: center; "><img src="/css/images/html.png" title="HTML" style="height: 60px"><img src="/css/images/css.png" title="CSS" style="height: 60px"></p>
 <br>
 <p style="text-align: center;">
     Pode conferir a página funcionando no meu 
